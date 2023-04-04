@@ -1,8 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public static class Utils
+public static class WeaponHelper
 {
     public static string WeaponUIHelper<T>(T weapon) where T : Weapon
     {

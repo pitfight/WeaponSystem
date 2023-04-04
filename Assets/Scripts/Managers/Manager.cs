@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Manager : MonoBehaviour
@@ -39,7 +37,7 @@ public class Manager : MonoBehaviour
     {
         //currentWeapon =
         currentWeapon = Instantiate(NextWeapon().GetComponent<Weapon>());
-        uiManager.SetWeaponInfo(Utils.WeaponUIHelper(currentWeapon));
+        uiManager.SetWeaponInfo(WeaponHelper.WeaponUIHelper(currentWeapon));
         currentControll = currentWeapon;
     }
 
