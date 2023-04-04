@@ -21,11 +21,11 @@ public class Melee : Weapon
     private void Hit()
     {
         durability--;
-        Debug.Log($"Bam Bam: {weaponName}");
+        Debug.Log($"Hit: {WeaponName}");
     }
 
     private void WeaponIsBroke()
     {
-        Debug.Log($"Weapon is Broke: {weaponName}");
+        Debug.Log($"Weapon is Broke: {WeaponName}");
     }
 }

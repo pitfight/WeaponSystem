@@ -21,11 +21,11 @@ public class Firearms : Weapon
     private void Fire()
     {
         bullets--;
-        Debug.Log($"Pew Pew: {weaponName}");
+        Debug.Log($"Pew Pew: {WeaponName}");
     }
 
     private void ClipIsEmpty()
     {
-        Debug.Log($"Clip is Empty: {weaponName}");
+        Debug.Log($"Clip is Empty: {WeaponName}");
     }
 }
